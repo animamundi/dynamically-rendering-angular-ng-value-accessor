@@ -41,6 +41,5 @@ export class FormControlOutletComponent {
     );
 
     ngControl.valueAccessor = componentRef.instance;
-    this.controlContainer.formDirective.addControl(ngControl);
   }
 }
