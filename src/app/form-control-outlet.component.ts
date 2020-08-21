@@ -1,25 +1,14 @@
 import {
-  Directive,
-  forwardRef,
-  Self,
-  Optional,
-  OnInit,
-  Host,
-  SkipSelf,
-  ComponentFactoryResolver,
-  ViewContainerRef,
-  ComponentRef,
   Component,
-  Injector
+  ComponentFactoryResolver,
+  forwardRef,
+  Host,
+  Injector,
+  SkipSelf,
+  ViewContainerRef
 } from "@angular/core";
-import {
-  NgControl,
-  ControlContainer,
-  Form,
-  AbstractControl,
-  ControlValueAccessor,
-  NG_VALUE_ACCESSOR
-} from "@angular/forms";
+import { ControlContainer, NgControl, NG_VALUE_ACCESSOR } from "@angular/forms";
+
 import { CustomInputComponent } from "./custom-input.component";
 
 @Component({
