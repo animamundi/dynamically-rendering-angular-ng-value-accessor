@@ -24,7 +24,6 @@ import { CustomInputComponent } from "./custom-input.component";
 })
 export class FormControlOutletComponent {
   constructor(
-    @Host() @SkipSelf() private controlContainer: ControlContainer,
     public injector: Injector,
     private componentFactoryResolver: ComponentFactoryResolver,
     private viewContainerRef: ViewContainerRef
